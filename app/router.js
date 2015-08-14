@@ -6,6 +6,9 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('flattened');
+  this.route('bubble');
+  this.route('bound');
 });
 
 export default Router;
